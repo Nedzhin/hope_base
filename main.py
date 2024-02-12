@@ -5,7 +5,7 @@ from streamlit_option_menu import option_menu
 
 import home, profile_1, quiz, chat, about
 st.set_page_config(
-        page_title="HopeX learn platform",
+        page_title="MDX learn platform",
 )
 
 
@@ -26,7 +26,7 @@ class MultiApp:
         # app = st.sidebar(
         with st.sidebar:        
             app = option_menu(
-                menu_title='HopeX learn',
+                menu_title='MDX learn',
                 options=['Home','Profile','Quiz','AI Chat','Image AI'],
                 icons=['house-fill','person-circle','trophy-fill','chat-fill','info-circle-fill'],
                 menu_icon='chat-text-fill',

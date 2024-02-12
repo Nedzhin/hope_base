@@ -20,7 +20,7 @@ def initialize_firebase_app():
 initialize_firebase_app()
 
 def app():
-  st.title('Welcome to :violet[HopeX learn]')
+  st.title('Welcome to :violet[MDX learn]')
 
   
 
